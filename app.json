@@ -32,6 +32,21 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "react-native-background-geolocation",
+        {
+          "title": "Location Required",
+          "text": "This app requires background location tracking",
+          "foregroundService": {
+            "notificationTitle": "Location Tracking Enabled",
+            "notificationText": "The app is tracking your location"
+          }
+        }
+      ],
+      "react-native-background-fetch",
+      "expo-gradle-ext-vars"
+    ]
   }
 }

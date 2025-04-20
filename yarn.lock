@@ -4441,6 +4441,11 @@ expo-font@~9.1.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
+expo-gradle-ext-vars@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/expo-gradle-ext-vars/-/expo-gradle-ext-vars-0.1.2.tgz#1b2bd1327d45d2ce112ac6dc16f508da1c57faa8"
+  integrity sha512-kxW/BtWlSzfWhsZckaSkTwGW50F1j3SxEvGGGSR9MCqA64lmmqwRmTf+oKLwZccTe02OpSinTHOryeTMJ4tx7w==
+
 expo-image-loader@~2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/expo-image-loader/-/expo-image-loader-2.1.1.tgz#028ae58f7c7a33ca9a406716c2b31969216d016f"
@@ -8152,6 +8157,18 @@ react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-i
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-native-background-fetch@^4.2.7, react-native-background-fetch@~4.2.6:
+  version "4.2.7"
+  resolved "https://registry.yarnpkg.com/react-native-background-fetch/-/react-native-background-fetch-4.2.7.tgz#2c13afa2454d0f01da2b798d0968acf4a6b34373"
+  integrity sha512-lR8MmQRjd7MV9KBSOsyxFRW7jeCjNOSvsT4PECwZv54iZZtxUkRjH8Kbr6SGiSPK1AmYM6TCdRBEt2I9FDZJEg==
+
+react-native-background-geolocation@^4.18.6:
+  version "4.18.6"
+  resolved "https://registry.yarnpkg.com/react-native-background-geolocation/-/react-native-background-geolocation-4.18.6.tgz#56fc8de7a8a893daa1b60cea901be9d4c63027bf"
+  integrity sha512-45wgsO9D6fZxWNB+RMctVOgluTfj5ktCL8mVXapxnLcIlNHoKYVFVxaJj45AcVzPYTHIxsnwn9LP/+gJydkFGA==
+  dependencies:
+    react-native-background-fetch "~4.2.6"
 
 react-native-config@^1.4.2:
   version "1.4.2"
